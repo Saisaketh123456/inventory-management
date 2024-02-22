@@ -1,33 +1,24 @@
-# inventory-management
-Free Download Source Code "Advance Inventory Management System"
+# Inventory Management System
 
-FIRST Download
+A simple PHP web system for managing an inventory.  
+  
 
-1.XAMPP
+## Installation
+* Clone the repository and move the root folder to the deployment folder of your browser. (for Apache, this is htdocs)
+* Create a blank DB called *shop_inventory* in MySQL
+* Load the sql dump to the newly created _shop_inventory_ database
+* Change the root url of your website in [constants.php](inc/config/constants.php) file
 
-2."TEXT EDITOR" NOTEPAD++ OR SUBLIME TEXT 3 / ETC.
+## Requirements
+* PHP
+* MySQL
+* Apache
+* Google Chrome web browser (JavaScript enabled)
+* Internet connection with a reasonable speed
 
-3"inventory-management-system"
-
-4. Download the zip file/ download winrar
-
-5. Extract the file and copy "inventory-management-system" folder
-
-6.Paste inside root directory/ where you install xammp local disk C: drive D: drive E: paste: (for xampp/htdocs, 
-
-7. Open PHPMyAdmin (http://localhost/phpmyadmin)
-
-8. Create a database with name shop_inventory
-
-6. Import shop_inventory.sql file(given inside the zip package in SQL file folder)
-
-7.Run the script http://localhost/inventory-management-system
+## Usage
+* Access the login.php file from via browser and give _guest_ as username and _1234_ as password
 
 
-**LOGIN DETAILS** 
-
-username: admin
-password: admin
-
-****** https:1sourcecodr.blogspot.com ******
-Subcribe my You tube Channel **** 1 Source code ****
+## Acknowledgments
+* Inspired by many similar projects online
